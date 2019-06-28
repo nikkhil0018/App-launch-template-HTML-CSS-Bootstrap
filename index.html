@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/47e32004fd.js"></script>
+
+    <!-- https://github.com/pixelsign/html5-device-mockups -->
+    <!-- Device mockeup css-->
+    <link rel="stylesheet" href="device.min.css">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>App Launch | Home</title>
+  </head>
+  <body>
+
+   <header class="header">
+       <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="./app/logo.png" class="fluid" alt=""></a>
+            <!-- Navigation toggler -->
+            <button 
+                class="navbar-toggler navbar-toggler-right" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarSupportedContent" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <!-- Actual menu items -->
+            <div id="navbarSupportedContent" class="collapse navbar-collapse" >
+                <!-- Center menu -->
+            <ul class="navbar-nav mx-auto ml-auto" >
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#">Features</a></li>
+                <li><a  class="nav-link" href="#">Get started</a></li>
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Services</a>
+                          <a class="dropdown-item" href="#">Pricing</a>
+                          <a class="dropdown-item" href="#">Referels</a>
+                        </div>
+                      </li>
+            </ul>
+
+            <!-- Right button -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a 
+                    data-target="#login"
+                    data-toggle="modal"
+                    class="nav-link mr-3" href="#">
+                    Login
+                </a></li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary" href="#">
+                        Get Started
+                    </a></li>
+            </ul>
+            </div>
+        </div>
+       </nav>
+   </header>
+
+
+   <!-- Login modal -->
+   <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Super FM App</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- form -->
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Your email...">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Enter password">
+            </div>
+            <button type="submit" class="btn btn-block btn-outline-primary">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured -->
+  <div class="page">
+    <section class="hero section-1">
+      <div class="container mt-4">
+         <div class="row align-item-center">
+           <div class="col-lg-6">
+             <h1 class="hero-heading display-3">A perfect theme for your App Launch</h1>
+             <p class="lead font-weight-light">This template can be used for an App Launch & uses modern design with responsiveness.</p>
+             <!-- Subscription form -->
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter email to get it first" />
+              <div class="input-group-append">
+                <button class="btn btn-primary mybold">Subscribe</button>
+              </div>
+            </div>
+            <!-- App available on -->
+            <div class="platform d-none d-lg-block">
+              <span class="platform-title">App available on</span>
+              <ul class="platform-list list-inline">
+                <li class="list-inline-item">
+                  <img src="./svgs/android.svg" class="platform-image" alt="img android"/>
+                </li>
+                <li class="list-inline-item">
+                  <img src="./svgs/apple.svg" class="platform-image" alt="img ios"/>
+                </li>
+                <li class="list-inline-item">
+                  <img src="./svgs/windows.svg" class="platform-image" alt="img windows"/>
+                </li>
+              </ul>
+            </div>
+           </div>
+           <div class="col-lg-6  d-none d-lg-block">
+            <div class="device-wrapper mx-auto">
+              <div class="device" data-device="iPhone7" data-orientation="portrait" data-color="black">
+                <div class="screen">
+                  <!-- App screenshot here --> <img src="./app/app.png" alt="app screenshot" class="img-fluid">
+                </div>
+              </div>
+            </div>
+           </div>
+         </div>
+      </div>
+    </section>
+
+    <!-- Feature-2 section starts -->
+    <section class="feature mt-5">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="text-primary">Amazing Feature</span>
+          <h2 class="display-4">Customized App</h2>
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <p class="lead mybold">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta unde mollitia tempore, nostrum deleniti illum autem optio, modi esse libero voluptatibus debitis accusamus magni et omnis cum voluptates cupiditate repellendus nisi ratione! Recusandae, fugit quos. Quis, temporibus ipsa. Atque, impedit veritatis laboriosam minima alias distinctio?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Feature-2 section Ends -->
+
+   <!-- Feature Block starts -->
+   <section class="feature-2 mt-5 mybold">
+     <div class="container">
+       <div class="row text-center">
+         <!-- col-one -->
+         <div class="col-lg-4">
+           <div class="feature-item mb-5 mb-lg-0">
+             <div class="gradient-icon gradient-1">
+               <i class="fas fa-cog"></i>
+             </div>
+             <h3 class="h5">Machine Learning</h3>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum nisi ducimus voluptatem voluptate provident esse!</p>
+             <a href="#" class="feature-link">Learn more</a>
+           </div>
+         </div>
+         <!-- col-two -->
+         <div class="col-lg-4">
+          <div class="feature-item mb-5 mb-lg-0">
+            <div class="gradient-icon gradient-2">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3 class="h5">Data science</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum nisi ducimus voluptatem voluptate provident esse!</p>
+            <a href="#" class="feature-link">Learn more</a>
+          </div>
+         </div>
+         <!-- col-three -->
+         <div class="col-lg-4">
+          <div class="feature-item mb-5 mb-lg-0">
+            <div class="gradient-icon gradient-3">
+              <i class="fas fa-user-cog"></i>
+            </div>
+            <h3 class="h5">Atificial intelligence</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum nisi ducimus voluptatem voluptate provident esse!</p>
+            <a href="#" class="feature-link">Learn more</a>
+          </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- Feature Block ends -->
+
+
+   <!-- Action bar starts -->
+   <div class="container-fluid bg-primary text-center text-white my-5 py-5">
+     <h2 class="display-3">Download NOW !</h2>
+     <button class="btn btn-light btn-lg mybold mt-3">App Store</button>
+   </div>
+   <!-- Action bar ends -->
+
+   <!-- Social icon starts -->
+   <div class="container text-center display-3">
+     <ul class="list-inline-item">
+       <li class="list-inline-item mx-5"><a href=""><i class="fab fa-instagram"></i></a></li>
+       <li class="list-inline-item mx-5"><a href=""><i class="fab fa-facebook-square"></i></a></li>
+       <li class="list-inline-item mx-5"><a href=""><i class="fab fa-whatsapp"></i></a></li>
+     </ul>
+   </div>
+   <!-- Social icon sends -->
+
+   <!-- footer starts -->
+   <div class="container-fluid text-center text-light footer">
+     <p class="h3">Copyright by someone <a href="#" class="">Your name</a></p>
+     <p class="copyright-text lead mb-2">
+       Coded by
+       <a href="https://nikhilchauhan.com/" target="_blank" class="text-white">Nikhil k.chauhan</a>
+     </p>
+    </div>
+
+  <!-- footer ends -->
+
+  </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
